@@ -2,10 +2,10 @@ import "reflect-metadata";
 import express from "express";
 import { createConnection } from "typeorm";
 import cors from "cors";
-import * as SessionController from "./src/controllers/SessionController";
-import * as EmpresaController from "./src/controllers/EmpresaController";
-import * as EmpresaWebController from "./src/controllers/EmpresaWebController";
-import * as RastreamentoController from "./src/controllers/RastreamentoController";
+import * as SessionController from "./controllers/SessionController";
+import * as EmpresaController from "./controllers/EmpresaController";
+import * as EmpresaWebController from "./controllers/EmpresaWebController";
+import * as RastreamentoController from "./controllers/RastreamentoController";
 
 const PORT = 3000;
 
